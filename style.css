@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+</style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    font-family: "Oswald", sans-serif;
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle at center, #ff9b29 5%, #C84B02 100%);
+    background-attachment: fixed; 
+    color: white;
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 50px;
+    
+
+    
+    /* background-color: cadetblue; */
+    
+    
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* padding-left: 30px;
+    padding-right: 50px; */
+}
+
+.logo img{
+    /* display: flex;
+    align-items: center; */
+    height: 60px;
+}
+.nav-right{
+    display: flex;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    
+}
+
+.order-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    border-radius: 40px;
+    border: transparent;
+
+}
+
+.order-button p{
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    line-height: 0;
+
+}
+
+.order-button img{
+    height: 20px;
+    width: 20px;
+}
+
+.options{
+    /* background-color: brown; */
+    padding-left: 41%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#products{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 22px;
+    border-radius: 30px;
+    border: transparent;
+    font-family: "Oswald", sans-serif;
+
+}
+
+#custom{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-family: "Oswald", sans-serif;
+}
+
+section{
+    display: flex;
+}
+
+.mleft{
+    /* background-color: cornflowerblue; */
+    height: 60%;
+    width: 20%;
+    margin: 50px 20px;
+    
+}
+
+.mleft h1{
+    font-family: "Oswald", sans-serif;   
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 55px;
+    /* background-color: chartreuse; */
+}
+
+.mleft p{
+    /* background-color: aquamarine;  */
+    padding-top: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.middle{
+    position:relative;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family: "Oswald", sans-serif;   
+    text-transform: uppercase;
+    letter-spacing:-20px;
+    margin-top: 200px;
+    
+    
+    
+}
+
+.middle p{
+    display: flex;
+    position:absolute;
+    left: 20%;
+    /* background-color: blue; */
+    
+    font-size:min(25vw, 340px);
+    font-weight:900;  
+    z-index: 1;
+
+}
+
+.shoe{
+    position: absolute;
+    z-index: 2;
+    /* background-color: brown; */
+    height: 70%;
+    width: 32%;
+    left: 33%;
+    margin-top: 3%;
+}
+
+.shoe img{
+    height: 100%;
+    width: 100%;
+}
+
+.mright{
+    position: absolute;
+    margin-top: 80px;
+    left: 84%;
+    
+    
+}
+
+.mright p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.buttons{
+    /* background-color: aqua; */
+    gap: 10px;
+    margin-bottom: 10px;
+    /* position: fixed; */
+    
+    
+}
+
+#blue{
+    padding: 23px 23px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #4ACECA;
+    cursor: pointer;
+}
+
+#orange{
+    padding: 23px 23px;
+    border-radius: 50%;
+    border: transparent;
+    align-content: start;
+    background-color: #FB6D01;
+    cursor: pointer;
+
+}
+
+#red{
+    padding: 23px 23px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #F2043B;
+    cursor: pointer;
+    
+}
+
+#blue:hover{
+    border: 2px solid white;
+}
+
+#orange:hover{
+    border: 2px solid white;
+}
+
+#red:hover{
+    border: 2px solid white;
+}
+
+.sizes{
+    /* background-color: chartreuse; */
+}
+
+#s1{
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    
+}
+
+#s2{
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+#s3{
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.bleft{
+    position: absolute;
+    display: flex;
+    gap: 25px;
+    
+    top: 108%;
+    height: 20px;
+    width: 170px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    /* background-color: brown; */
+}
+
+.tagline{
+    display: flex;
+    position: absolute;
+    top: 105%;
+    left: 36%;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    /* background-color: blueviolet; */
+}
+
+.tagline .line{
+    width: 90px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.tagline p{
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif; 
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 2px;
+
+}
+
+.visit{
+    position: absolute;
+    top: 105%;
+    left: 80%;
+    font-family: "Oswald", sans-serif;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+    border-radius: 40px;
+    border: transparent;
+    
+
+}
+
+.visit p{
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    line-height: 0;
+    margin-right: 10px;
+
+}
+.visit img{
+    height: 20px;
+    width: 20px;
+}
+
